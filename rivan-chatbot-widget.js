@@ -90,6 +90,30 @@
     }
     #rivan-chat-footer a { color: #999; text-decoration: none; }
     #rivan-chat-footer a:hover { text-decoration: underline; }
+
+        /* ---- Mobile responsiveness ---- */
+    @media (max-width: 600px) {
+      #rivan-chat-bubble {
+        bottom: 20px; right: 20px;
+        width: 56px; height: 56px;
+      }
+      #rivan-chat-window {
+        bottom: 0; right: 0; left: 0; top: 0;
+        width: 100%; max-width: 100%;
+        height: 100%; max-height: 100%;
+        border-radius: 0;
+      }
+      #rivan-quick-replies {
+        padding: 10px;
+      }
+      .rivan-quick-reply {
+        font-size: 13px;
+        padding: 10px 6px;
+      }
+      .rivan-msg {
+        font-size: 14px;
+      }
+    }
   `;
   document.head.appendChild(style);
 
