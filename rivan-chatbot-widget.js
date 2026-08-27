@@ -94,7 +94,7 @@
         /* ---- Mobile responsiveness ---- */
       @media (max-width: 600px) {
       #rivan-chat-bubble {
-        bottom: 90px; right: 20px;
+        bottom: 90px; right: 25px;
         width: 56px; height: 56px;
       }
       #rivan-chat-window {
