@@ -92,7 +92,7 @@
     #rivan-chat-footer a:hover { text-decoration: underline; }
 
         /* ---- Mobile responsiveness ---- */
-    @media (max-width: 600px) {
+      @media (max-width: 600px) {
       #rivan-chat-bubble {
         bottom: 20px; right: 20px;
         width: 56px; height: 56px;
